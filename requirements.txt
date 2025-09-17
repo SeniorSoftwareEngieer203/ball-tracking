@@ -1,0 +1,9 @@
+# Minimal Python dependencies for the Simple Hybrid Ball Tracker
+# NOTE: PyTorch (torch, torchvision) is intentionally omitted because
+# you should install the correct wheel for your CUDA or CPU-only setup.
+# See the README for example install commands.
+
+ultralytics
+opencv-python-headless
+numpy
+jupyter

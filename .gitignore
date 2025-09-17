@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / model files (weights)
+*.pt
+*.pth
+
+# Video outputs and logs
+/output/
+*.mp4
+*.mov
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+.eggs/
+*.egg-info/
